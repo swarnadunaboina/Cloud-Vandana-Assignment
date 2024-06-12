@@ -1,0 +1,46 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:'poppins',sans-serif;
+    box-sizing: border-box;
+  }
+.container
+{
+ width: 100%;
+ background-position: center;
+ background-size: cover;
+ position: relative;
+ text-align: center;
+}
+table
+{                
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    border-color: #090a0a;
+}
+ input{
+  background-color: #090a0a;
+  border: none;
+  color: white;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#calPart{
+  background-color: white;
+  color: #090a0a;
+  border-style: ridge;
+  border-color: black;
+}
+#ac{
+  background-color: #04AA6D;
+} 
+.grey{
+  background-color: grey;
+}

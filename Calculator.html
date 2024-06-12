@@ -1,0 +1,44 @@
+<html>
+ <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Calculator.css">
+  <title> Calculator </title> 
+ </head> 
+ <body class="container"> 
+  <form name="f1"> 
+   <table  > 
+    <tbody>
+     <tr> 
+      <td colspan="3"> <input type="text" name="result" size="30" maxlength="20" id="calPart"> </td> 
+      <td> <input type="button" value="AC" onclick="press('AC')" id="ac"> </td> 
+     </tr> 
+     <tr class="input"> 
+      <td> <input type="button" value="9" onclick="press('9')"> </td> 
+      <td> <input type="button" value="8" onclick="press('8')"> </td> 
+      <td> <input type="button" value="7" onclick="press('7')"> </td>
+      <td> <input type="button" value="+" onclick="press('+')" class="grey"> </td>  
+     </tr> 
+     <tr class="input"> 
+      <td> <input type="button" value="4" onclick="press('4')"> </td> 
+      <td> <input type="button" value="5" onclick="press('5')"> </td> 
+      <td> <input type="button" value="6" onclick="press('6')"> </td> 
+      <td> <input type="button" value="-" onclick="press('-')" class="grey"> </td>  
+     </tr> 
+     <tr class="input"> 
+      <td> <input type="button" value="1" onclick="press('1')"> </td> 
+      <td> <input type="button" value="2" onclick="press('2')"> </td> 
+      <td> <input type="button" value="3" onclick="press('3')"> </td> 
+      <td> <input type="button" value="/" onclick="press('/')" class="grey"> </td>  
+     </tr> 
+     <tr class="input"> 
+      <td> <input type="button" value="." onclick="press('.')" > </td> 
+      <td> <input type="button" value="0" onclick="press('0')"> </td> 
+      <td> <input type="button" value="=" onclick="calcu()"> </td> 
+      <td> <input type="button" value="x" onclick="press('*')" class="grey"> </td> 
+     </tr> 
+    </tbody>
+   </table> 
+  </form> 
+  <script src="Calculator.js"></script>
+ </body>
+</html>
