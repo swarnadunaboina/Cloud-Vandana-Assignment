@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.io.*;
 import java.util.HashMap;
-class Roman {
+class RomanToInt {
     public static void RnToIn(String val){
         HashMap<Character, Integer> map = new HashMap<>();
         map.put('I',1);
