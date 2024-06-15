@@ -1,9 +1,14 @@
 function press(expr) 
 {
- if(expr=="AC") 
+ if(expr=="AC") {
   document.f1.result.value=" ";
-  else
+ }
+  else{
+   var lastLetter=document.f1.result.value.slice(-1);
+   if(!(lastLetter==expr && [".","/","+","-","*"].includes(expr)))
   document.f1.result.value=document.f1.result.value+expr;
+
+}
 }
 function calcu()
 {
